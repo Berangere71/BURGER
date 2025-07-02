@@ -1,18 +1,25 @@
-
-.burger {
-    border-block-end-width: 150px;
-}
-
 .sectionUn {
     background: linear-gradient(to left top, brown, red);
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     font-family: cursive;
     color: blanchedalmond;
     font-style: normal;
     font-size: xxx-large;
-    margin: 0%;
+    padding:10%;
 
+
+}
+
+.burger {
+    position: relative;
+    height: 500px;
+}
+
+.combo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .testQ {
@@ -47,19 +54,21 @@
     font-size: xxx-large;
     font-weight: bold;
     color: blanchedalmond;
-  m
+
 }
 
-.paraf{
+.paraf {
     padding: 20px 10px;
 }
-.iframe{
+
+.iframe {
     margin-top: 20px;
-    padding:20px 10px
+    padding: 20px 10px
 }
+
 .testT {
-   margin-top: 20px;
- 
+    margin-top: 20px;
+
 }
 
 
@@ -80,4 +89,21 @@
 .centre {
     text-align: center;
 
+}
+
+/*Mode PC */
+.body {
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Trois colonnes de même taille */
+}
+
+/**Mode téléphone */
+@media (max-width: 600px) {
+  
+
+    .combo {
+        display:flex;
+        flex-direction:column;
+    
+    }
 }
