@@ -11,15 +11,23 @@
 
 }
 
-.burger {
+.combo{
     position: relative;
-    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.combo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.burger{
+    width: 800px;
+}
+
+.oignon{
+    position: absolute;
+    width: 180px;
+    bottom: -40px;
+    right: 220px;
+    transform: rotate(-15deg);
 }
 
 .testQ {
